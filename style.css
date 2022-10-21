@@ -161,5 +161,54 @@
     filter:sepia(100%);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     margin: 0;
+}
+
+/* 10 */
+
+.ex-10-icon{
+    animation-name: refresh;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction:reverse;
+    animation-iteration-count: infinite;
 
 }
+
+@keyframes refresh{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* 11 */
+.ex-11-icon:hover{
+    animation-name: back;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes back{
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    40%{
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(270deg);
+    }
+    80%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* 12 */
+
+
