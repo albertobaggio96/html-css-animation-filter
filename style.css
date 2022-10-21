@@ -67,3 +67,99 @@
     width: 60px;
     height: 20px;
 }
+
+/* soluzioni */
+/* 1 */
+.ex-1-square{
+    transition: 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* 2 */
+.ex-2-square{
+    transition: 2s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* 3 */
+.ex-3-square{
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+/* 4 */
+
+.ex-4-square{
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* 5 */
+.ex-5-square{
+    transition: 1s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    width: 90px;
+    height: 90px;
+}
+
+/* 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+/* 7 */
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter:sepia(100%);
+    padding: 4rem;
+}
+
+/* 8 */
+
+.ex-8-img{
+    transition: 1s;
+}
+
+.ex-8-img:hover{
+    filter: invert(100%);
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+/* 9 */
+.ex-9-img{
+    transition: 1s;
+}
+
+.ex-9-img:hover{
+    width: 500px;
+    border-radius: 30px;
+    filter:sepia(100%);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 0;
+
+}
